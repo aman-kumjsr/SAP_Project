@@ -1,0 +1,36 @@
+<mvc:View controllerName="employeedetails.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <Table id="table" items="{path: 'emp>/employee'}">
+        
+        <columns>
+          <Column id="_IDGenColumn1">
+            <Text id="_IDGenText1" text="Employee ID"/>
+          </Column>
+          <Column id="_IDGenColumn2">
+            <Text id="_IDGenText2" text="Name"/>
+          </Column>
+          <Column id="_IDGenColumn3">
+            <Text id="_IDGenText3" text="Position"/>
+          </Column>
+          <Column id="_IDGenColumn4">
+            <Text id="_IDGenText4" text="Department"/>
+          </Column>
+        </columns>
+        <items>
+          <ColumnListItem id="_IDGenColumnListItem1" type="Navigation" press="onPress">
+            <cells>
+              <Text id="_IDGenText5" text="{emp>employee_id}"/>
+              <Text id="_IDGenText6" text="{emp>name}"/>
+              <Text id="_IDGenText7" text="{emp>position}"/>
+              <Text id="_IDGenText8" text="{emp>department}"/>
+            </cells>
+          </ColumnListItem>
+        </items>
+      </Table>
+      </content>
+    </Page>
+</mvc:View>

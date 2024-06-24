@@ -1,0 +1,53 @@
+{
+"employee" :[
+    {
+      "employee_id": "E001",
+      "name": "John Doe",
+      "position": "Software Engineer",
+      "department": "IT",
+      "salary": 75000,
+      "hire_date": "2021-05-15",
+      "email": "john.doe@example.com",
+      "phone": "555-1234",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip_code": "12345"
+      }
+    },
+    {
+      "employee_id": "E002",
+      "name": "Jane Smith",
+      "position": "Project Manager",
+      "department": "Operations",
+      "salary": 85000,
+      "hire_date": "2019-03-12",
+      "email": "jane.smith@example.com",
+      "phone": "555-5678",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip_code": "67890"
+      }
+    },
+    {
+      "employee_id": "E003",
+      "name": "Bob Johnson",
+      "position": "Data Analyst",
+      "department": "Marketing",
+      "salary": 68000,
+      "hire_date": "2020-07-20",
+      "email": "bob.johnson@example.com",
+      "phone": "555-9876",
+      "address": {
+        "street": "789 Pine St",
+        "city": "Yetanothertown",
+        "state": "FL",
+        "zip_code": "54321"
+      }
+    }
+  ]
+
+}

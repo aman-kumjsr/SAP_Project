@@ -1,0 +1,20 @@
+<mvc:View
+    controllerName="employeedetails.controller.EmpDetails"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:m="sap.m">
+    <Page id="_IDGenPage1" title="Employee Details">
+        <content>
+            <VBox id="_IDGenVBox1">
+                <Text id="_IDGenText1" text="Employee ID: {/employeeDetails/employee_id}"/>
+                <Text id="_IDGenText2" text="Name: {/employeeDetails/name}"/>
+                <Text id="_IDGenText3" text="Position: {/employeeDetails/position}"/>
+                <Text id="_IDGenText4" text="Department: {/employeeDetails/department}"/>
+                <Text id="_IDGenText5" text="Salary: {/employeeDetails/salary}"/>
+                <Text id="_IDGenText6" text="Hire Date: {/employeeDetails/hire_date}"/>
+                <Text id="_IDGenText7" text="Email: {/employeeDetails/email}"/>
+                <Text id="_IDGenText8" text="Phone: {/employeeDetails/phone}"/>
+                <Text id="_IDGenText9" text="Address: {/employeeDetails/address/street}, {/employeeDetails/address/city}, {/employeeDetails/address/state} {/employeeDetails/address/zip_code}"/>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
